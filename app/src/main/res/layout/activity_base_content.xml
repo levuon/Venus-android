@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.venus.android.custom.AppBar android:id="@+id/appbar"
+        android:background="@color/home_head_background_color"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:clickable="false" />
+    <FrameLayout android:id="@+id/layout_content"
+        android:background="@color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true" />
+</RelativeLayout>

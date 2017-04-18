@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightgraybg">#f5f5f5</color>
+    <color name="orange">#FF5723</color>
+    <color name="light_orange">#fd7753</color>
+    <color name="white">#cccccc</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="palette_aluminium">#8a8c92</color>
+    <color name="palette_red">#fd5359</color>
+    <color name="palette_orange">#FF5723</color>
+    <color name="palette_red_dark">#ff5f5f</color>
+
+
+    <color name="home_head_background_color">#ffffffff</color>
+
+    <color name="loading_progress_circle_color">#c0c0c0</color>
+
+    <color name="palette_transparent">#00000000</color>
+    <color name="qfpay_white">#ffffffff</color>
+    <color name="qfpay_white_bg">#f8f6f3</color>
+    <color name="gray">#aaadb5</color>
+    <color name="qfpay_bg">#e2e4e5</color>
+    <color name="common_background_color">#f7f7f7</color>
+    <color name="common_divide_line_color">#e5e5e5</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="qf_blue_dark_alph">#b0039be5</color>
+
+    <color name="loading_background_color">#99292421</color>
+    <color name="palette_gray">#a7a9ae</color>
+    <color name="palette_gray_40">#7fa7a9ae</color>
+    <color name="palette_gray_athens">#dedede</color>
+    <color name="palette_gray_light">#e5e5e5</color>
+    <color name="palette_gray_mid">#c2c2c2</color>
+    <color name="palette_gray_white">#efefef</color>
+
+    <color name="palette_white">#ffffff</color>
+    <color name="palette_white_90">#e6ebebeb</color>
+    <color name="palette_white_light">#ebebeb</color>
+    <color name="palette_white_smoke">#f8f8f8</color>
+    <color name="palette_white_transparent">#88ffffff</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="palette_black">#2f323a</color>
+    <color name="palette_black_15">#20000000</color>
+    <color name="palette_black_50">#7f000000</color>
+    <color name="palette_black_70">#d6000000</color>
+    <color name="palette_black_90">#e6000000</color>
+    <color name="palette_black_light">#606470</color>
+    <color name="palette_black_mid">#4e5057</color>
+    <color name="palette_black_translucent">#7f000000</color>
+</resources>

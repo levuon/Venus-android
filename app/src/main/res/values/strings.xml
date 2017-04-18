@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">钱滚滚</string>
+
+    <string name="default_twoline">- -</string>
+    <string name="default_oneline">-</string>
+
+
+    <string name="pwd_digits">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^*()_+{}|:"?`-=[]\;',./&amp;&lt;&gt;</string>
+    <string name="hint">温馨提示</string>
+    <string name="app_full_name">中欧旗下理财交易及服务平台</string>
+    <string name="input_login_account_hint">请输入手机号码/身份证号码</string>
+    <string name="input_login_password_hint">请输入登录密码</string>
+    <string name="forget_password">忘记登录密码？</string>
+    <string name="hint_please_enter_correct_phone_num">请输入正确的手机号</string>
+    <string name="hint_register_phone_num">手机号</string>
+    <string name="my_asset">我的资产</string>
+    <string name="register">注册</string>
+    <string name="logout">退出登录</string>
+    <string name="presenter_hint_get_sms_code_error">获取验证码错误,请重新获取</string>
+
+    <string name="hint_diffrent_pass_with_confirm_pass">密码与确认密码不一致</string>
+    <string name="hint_please_enter_correct_password">请输入正确6–20位密码</string>
+    <string name="presenter_hint_second_retry">秒后重发</string>
+    <string name="presenter_retry_send_verify_code">重发验证码</string>
+    <string name="hint_confirm_phone_num">确认手机号</string>
+    <string name="hint_confirm_logout">确认退出</string>
+    <string name="dialog_msg_we_will_send_code_to_this_phone">我们将发送校验码短信到这个手机号:</string>
+    <string name="loading_hint_checking_sms_code">正在验证,请稍后…</string>
+    <string name="text_tip">提示</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_close">关闭</string>
+    <string name="text_confirm">确定</string>
+    <string name="username_error">用户名不能为空</string>
+    <string name="password_error">密码不能为空</string>
+    <string name="text_login_fail">登录失败，请重试</string>
+</resources>

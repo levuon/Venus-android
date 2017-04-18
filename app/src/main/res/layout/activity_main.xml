@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent" android:layout_width="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal"
+        android:id="@+id/ll_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical" android:id="@+id/ll_tab_home"
+            android:layout_width="@dimen/x20"
+            android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:id="@+id/iv_bottom_home"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:src="@drawable/selector_bottom_tab_home" />
+            <TextView android:textSize="@dimen/typography_f10"
+                android:textColor="@color/selector_main_tab_text"
+                android:id="@+id/tv_bottom_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="首页" />
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/ll_tab_demand"
+            android:layout_width="@dimen/x20"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView android:id="@+id/iv_bottom_demand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/selector_bottom_tab_demand" />
+            <TextView android:textSize="@dimen/typography_f10"
+                android:textColor="@color/selector_main_tab_text"
+                android:id="@+id/tv_bottom_demand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="精选基金" />
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/ll_tab_account"
+            android:layout_width="@dimen/x20"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+            <ImageView android:id="@+id/iv_bottom_account"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:src="@drawable/selector_bottom_tab_account" />
+            <TextView android:textSize="@dimen/typography_f10"
+                android:textColor="@color/selector_main_tab_text"
+                android:id="@+id/tv_bottom_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的资产" />
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/ll_tab_more"
+            android:layout_width="@dimen/x20"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+            <ImageView android:id="@+id/iv_bottom_more"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:src="@drawable/selector_bottom_tab_more" />
+            <TextView android:textSize="@dimen/typography_f10"
+                android:textColor="@color/selector_main_tab_text"
+                android:id="@+id/tv_bottom_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="账户设置" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/divider_main_activity"
+        android:background="@color/common_divide_line_color" android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/ll_bottom_layout" />
+    <FrameLayout android:id="@+id/rl_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/divider_main_activity" />
+</RelativeLayout>
+</FrameLayout>

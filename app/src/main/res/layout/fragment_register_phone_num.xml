@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#dddddd" />
+
+    <TextView
+        android:id="@+id/tv_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="请输入您的手机号/身份证号进行注册、登录"
+        android:textColor="#999999"
+        android:textSize="@dimen/x10" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#eeeeee" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="@dimen/x13"
+            android:layout_height="@dimen/x15"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/login_user" />
+
+        <EditText
+            android:id="@+id/et_phonenum"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="请输入手机号码/身份证号码"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:paddingLeft="10dp"
+            android:textColor="#333333"
+            android:textColorHint="#cccccc"
+            android:textCursorDrawable="@null"
+            android:textSize="@dimen/x13" >
+        </EditText>
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="@dimen/x15"
+            android:layout_height="@dimen/x15"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/tv_delete"
+            android:scaleType="fitXY"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#eeeeee" />
+
+    <LinearLayout
+        android:id="@+id/ll_login_showphonenum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tv_login_showphonenum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textColor="#333333"
+            android:textSize="25sp"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#eeeeee" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_loginnext"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x37"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_radius_grey"
+        android:clickable="false"
+        android:enabled="false"
+        android:text="下一步"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/x15" />
+
+
+    <TextView android:id="@+id/tv_register_tishi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="该手机号为中欧直销老用户，请使用身份证号、直销登录密码直接登录"
+        android:textSize="@dimen/x10"
+        android:textColor="#333333"
+        android:layout_margin="10dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

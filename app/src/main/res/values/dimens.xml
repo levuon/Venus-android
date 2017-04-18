@@ -1,0 +1,49 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="font_size0">12sp</dimen>
+    <dimen name="font_size1">13sp</dimen>
+    <dimen name="font_size2">14sp</dimen>
+    <dimen name="font_size3">15sp</dimen>
+    <dimen name="font_size4">16sp</dimen>
+    <dimen name="font_size5">17sp</dimen>
+    <dimen name="font_size6">18sp</dimen>
+    <dimen name="font_size7">19sp</dimen>
+    <dimen name="font_size8">20sp</dimen>
+
+    <dimen name="common_padding">15dp</dimen>
+    <dimen name="common_margin">15dp</dimen>
+
+    <dimen name="typography_f0">20sp</dimen>
+    <dimen name="typography_f1">18sp</dimen>
+    <dimen name="typography_f10">10sp</dimen>
+    <dimen name="typography_f11">11sp</dimen>
+    <dimen name="typography_f12">12sp</dimen>
+    <dimen name="typography_f13">13sp</dimen>
+    <dimen name="typography_f14">14sp</dimen>
+    <dimen name="typography_f15">15sp</dimen>
+    <dimen name="typography_f16">16sp</dimen>
+    <dimen name="typography_f17">17sp</dimen>
+    <dimen name="typography_f18">18sp</dimen>
+    <dimen name="typography_f19">19sp</dimen>
+    <dimen name="typography_f2">16sp</dimen>
+    <dimen name="typography_f20">20sp</dimen>
+    <dimen name="typography_f21">21sp</dimen>
+    <dimen name="typography_f22">22sp</dimen>
+    <dimen name="typography_f24">24sp</dimen>
+    <dimen name="typography_f26">26sp</dimen>
+    <dimen name="typography_f27">27sp</dimen>
+    <dimen name="typography_f28">28sp</dimen>
+    <dimen name="typography_f3">15sp</dimen>
+    <dimen name="typography_f30">30sp</dimen>
+    <dimen name="typography_f32">32sp</dimen>
+    <dimen name="typography_f36">36sp</dimen>
+    <dimen name="typography_f4">14sp</dimen>
+    <dimen name="typography_f40">40sp</dimen>
+    <dimen name="typography_f5">13sp</dimen>
+    <dimen name="typography_f6">12sp</dimen>
+    <dimen name="typography_f7">11sp</dimen>
+    <dimen name="typography_f8">10sp</dimen>
+    <dimen name="qfpay_medium">18sp</dimen>
+</resources>
